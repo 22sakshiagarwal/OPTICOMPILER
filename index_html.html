@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>OptiCompiler</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 800px;
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      font-family: monospace;
+      font-size: 14px;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 12px 25px;
+      background-color: #007acc;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    pre {
+      background: #e8f5e9;
+      padding: 15px;
+      border-radius: 5px;
+      white-space: pre-wrap;
+      font-family: monospace;
+      margin-top: 10px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .output-section {
+      margin-top: 20px;
+      border-top: 2px solid #ddd;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1> OptiCompiler</h1>
+
+    <label for="codeInput">Enter Your Source Code:</label>
+    <textarea id="codeInput"
+      placeholder="x = 10 + 5;&#10;y = x * 2;&#10;print(y);&#10;if (x > 10) { print(x); }"></textarea>
+
+    <button onclick="compileCode()">Compile & Optimize</button>
+
+    <div class="output-section">
+      <h3>Tokens:</h3>
+      <pre id="tokensOutput"></pre>
+    </div>
+
+    <div class="output-section">
+      <h3>Abstract Syntax Tree (AST):</h3>
+      <pre id="astOutput"></pre>
+    </div>
+
+    <div class="output-section">
+      <h3>Optimized Code:</h3>
+      <pre id="optimizedOutput"></pre>
+    </div>
+
+    <div class="output-section">
+      <h3>Simulated Machine Code:</h3>
+      <pre id="machineCodeOutput"></pre>
+    </div>
+
+    <div class="output-section">
+      <h3>Compiler Output:</h3>
+      <pre id="compilerOutput"></pre>
+    </div>
+
+  </div>
+
+  <!-- External JavaScript files -->
+  <script src="tokenizer_js.js"></script>
+  <script src="parser_js.js"></script>
+  <script src="optimizer_js.js"></script>
+  <script src="machine_code_js.js"></script>
+  <script src="compiler_js.js"></script>
+</body>
+
+</html>
