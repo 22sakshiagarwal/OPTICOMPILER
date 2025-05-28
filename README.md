@@ -49,7 +49,7 @@ OptiCompiler is a fully client-side AOT (Ahead-of-Time) compiler built using Jav
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/opticompiler.git
+   [git clone https://github.com/22sakshiagarwal/OPTICOMPILER.git]
    cd opticompiler
    ```
 
