@@ -80,13 +80,6 @@ if (x > 10) {
 
 ---
 
-## 👨‍💻 Author
-
-**Sakshi**
-[LinkedIn](https://www.linkedin.com/in/your-profile) 
-
----
-
 ## 📃 License
 
 This project is licensed under the MIT License.
