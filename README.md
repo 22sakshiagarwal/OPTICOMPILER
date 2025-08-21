@@ -76,7 +76,7 @@ if (x > 10) {
 
 * **Built from scratch** using vanilla JavaScript, no frameworks.
 * **Fully client-side**: no server-side computation or backend required.
-* **Educational Tool**: Great for learning basic compiler principles interactively.
+* **Educational Tool**: Great for learning basic compiler principles interactively. 
 
 ---
 
