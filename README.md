@@ -1,7 +1,7 @@
 
 #  OptiCompiler: AOT Compiler with Static Optimization
 
-**Live Demo**: [OptiCompiler on Render](https://opticompiler.onrender.com/)
+**Live Demo**: [OptiCompiler on Render]([https://opticompiler.onrender.com/](https://opticompiler-deploy.onrender.com))
 
 OptiCompiler is a fully client-side AOT (Ahead-of-Time) compiler built using JavaScript. It performs lexical analysis, parsing, abstract syntax tree (AST) generation, static code optimization, and simulated machine code generation—all in the browser with a sleek, responsive UI.
 
